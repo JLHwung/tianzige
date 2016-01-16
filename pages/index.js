@@ -11,26 +11,26 @@ class Tianzige extends Component {
     style = {
         char: {
             fontFamily: 'Kaiti TC',
-            lineHeight: this.height + 'px',
-            fontSize: this.height / 1.4 ,
+            lineHeight: this.height / 1.15 + 'px',
+            fontSize: this.height / 1.15 ,
             position: 'absolute',
             width: this.height,
             height: this.height,
-            textAlign: 'center'
+            textAlign: 'center',
+            overflowY: 'hidden'
         },
         borderOuter: {
             width: this.height,
             height: this.height,
-            position: 'relative'
+            clear: 'both',
+            display: 'inline-block'
         },
         border: {
-            width: '80%',
-            height: '80%',
-            margin: '10%',
+            width: '100%',
+            height: '100%',
             boxSizing: 'border-box',
             border: '2px solid #000',
-            position: 'relative',
-            transform: 'translateY(17%)'
+            position: 'relative'
         },
         borderRow: {
             width: '100%',
@@ -98,11 +98,16 @@ export default class extends Component {
         return (
             <div>
                 <h1>田字格</h1>
-                <p><input maxLength="1"
+                <p><input style={{ zIndex: 999 }}
                           value={this.state.char}
                           onChange={(e) => this.setState({ char: e.target.value })}/>
                 </p>
-                <Tianzige value={this.state.char}/>
+                {
+                    this.state.char.split('').map((v, k) =>
+                        <Tianzige value={v} key={k}/>
+                    )
+                }
+
             </div>
         );
     }
