@@ -21,17 +21,17 @@ class Tianzige extends Component {
             },
             borderOuter: {
                 width: height,
-                height: height
+                height: height,
+                position: 'relative'
             }
         };
     }
     render() {
         this.prepareStyle(this.props);
-        const { height: base } = this.props;
         return (
             <div style={this.style.borderOuter}>
                 <div style={this.style.char}>{this.props.value}</div>
-                <svg width={base} height={base} xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" version="1.1">
                     <rect x="0" y="0" width="100%" height="100%" stroke="black"
                           fill="transparent" strokeWidth="1%"/>
                     <line x1="50%" y1="0" x2="50%" y2="100%" stroke="black"
