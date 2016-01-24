@@ -95,17 +95,17 @@ class Tianzige extends Component {
 export default class extends Component {
     constructor(props) {
         super(props);
-        this.state = { char: '永', height: 420 };
+        this.state = { char: '永', height: 400 };
     }
     render() {
         return (
             <div>
                 <h1>田字格</h1>
                 <div style={{ display: 'flex', marginBottom: '1vh' }}>
-                    <input style={{ zIndex: 999, flexBasis: 300 }}
+                    <input style={{ zIndex: 999, flexBasis: 300, boxSizing: 'border-box' }}
                           value={this.state.char}
                           onChange={(e) => this.setState({ char: e.target.value })}/>
-                    <input style={{ flexBasis: 500 }}
+                    <input style={{ flexBasis: 500, boxSizing: 'border-box' }}
                            value={this.state.height} type="range" min="100" max="500"
                            onChange={(e) => this.setState({ height: e.target.value })}/>
                 </div>
