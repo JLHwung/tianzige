@@ -8,7 +8,6 @@ import React, { Component } from 'react';
 class Tianzige extends Component {
     prepareStyle(props) {
         const { height } = props;
-        const dashed = '1px dashed #333';
         this.style = {
             char: {
                 fontFamily: 'Kaiti TC',
@@ -22,72 +21,24 @@ class Tianzige extends Component {
             },
             borderOuter: {
                 width: height,
-                height: height,
-                clear: 'both',
-                display: 'inline-block'
-            },
-            border: {
-                width: '100%',
-                height: '100%',
-                boxSizing: 'border-box',
-                border: '2px solid #000',
-                position: 'relative'
-            },
-            borderRow: {
-                width: '100%',
-                height: '50%',
-                position: 'relative',
-                boxSizing: 'border-box'
-            },
-            borderTL: {
-                width: '50%',
-                height: '100%',
-                boxSizing: 'border-box',
-                float: 'left',
-                borderRight: dashed,
-                borderBottom: dashed
-            },
-            borderTR: {
-                width: '50%',
-                height: '100%',
-                boxSizing: 'border-box',
-                float: 'left',
-                borderLeft: dashed,
-                borderBottom: dashed
-            },
-            borderBL: {
-                width: '50%',
-                height: '100%',
-                boxSizing: 'border-box',
-                float: 'left',
-                borderTop: dashed,
-                borderRight: dashed
-            },
-            borderBR: {
-                width: '50%',
-                height: '100%',
-                boxSizing: 'border-box',
-                float: 'left',
-                borderLeft: dashed,
-                borderTop: dashed
+                height: height
             }
         };
     }
     render() {
         this.prepareStyle(this.props);
+        const { height: base } = this.props;
         return (
             <div style={this.style.borderOuter}>
                 <div style={this.style.char}>{this.props.value}</div>
-                <div style={this.style.border}>
-                    <div style={this.style.borderRow}>
-                        <div style={this.style.borderTL}/>
-                        <div style={this.style.borderTR}/>
-                    </div>
-                    <div style={this.style.borderRow}>
-                        <div style={this.style.borderBL}/>
-                        <div style={this.style.borderBR}/>
-                    </div>
-                </div>
+                <svg width={base} height={base} xmlns="http://www.w3.org/2000/svg" version="1.1">
+                    <rect x="0" y="0" width="100%" height="100%" stroke="black"
+                          fill="transparent" strokeWidth="1%"/>
+                    <line x1="50%" y1="0" x2="50%" y2="100%" stroke="black"
+                          strokeWidth="0.5%" strokeDasharray="3,3"/>
+                    <line x1="0" y1="50%" x2="100%" y2="50%" stroke="black"
+                          strokeWidth="0.5%" strokeDasharray="3,3"/>
+                </svg>
             </div>
         )
     }
