@@ -11,7 +11,7 @@
     "css-loader": "0.21.0",
     "del": "2.2.2",
     "eslint": "1.10.3",
-    "eslint-config-airbnb": "0.1.0",
+    "eslint-config-airbnb": "0.1.1",
     "eslint-plugin-react": "3.16.1",
     "fbjs": "0.4.0",
     "file-loader": "0.8.5",

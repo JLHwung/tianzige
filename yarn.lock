@@ -1273,9 +1273,9 @@ escope@^3.3.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-airbnb@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-airbnb/-/eslint-config-airbnb-0.1.0.tgz#5c6a122508050659a9446b69ac0ad4e701bfb2e0"
+eslint-config-airbnb@0.1.1:
+  version "0.1.1"
+  resolved "http://registry.npmjs.org/eslint-config-airbnb/-/eslint-config-airbnb-0.1.1.tgz#05731461210efe985acc3aa5be0a821952deb8e7"
 
 eslint-plugin-react@3.16.1:
   version "3.16.1"
