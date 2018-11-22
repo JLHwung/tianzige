@@ -3533,7 +3533,7 @@ react-dom@0.14.8:
   version "0.14.8"
   resolved "http://registry.npmjs.org/react-dom/-/react-dom-0.14.8.tgz#0f1c547514263f771bd31814a739e5306575069e"
 
-react-proxy@^1.1.1:
+react-proxy@^1.1.7:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/react-proxy/-/react-proxy-1.1.8.tgz#9dbfd9d927528c3aa9f444e4558c37830ab8c26a"
   dependencies:
@@ -3544,12 +3544,12 @@ react-transform-catch-errors@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/react-transform-catch-errors/-/react-transform-catch-errors-1.0.2.tgz#1b4d4a76e97271896fc16fe3086c793ec88a9eeb"
 
-react-transform-hmr@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/react-transform-hmr/-/react-transform-hmr-1.0.1.tgz#59c353e9a486cae5fe31789b41d32b99dde1642d"
+react-transform-hmr@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/react-transform-hmr/-/react-transform-hmr-1.0.4.tgz#e1a40bd0aaefc72e8dfd7a7cda09af85066397bb"
   dependencies:
     global "^4.3.0"
-    react-proxy "^1.1.1"
+    react-proxy "^1.1.7"
 
 react@0.14.8:
   version "0.14.8"
