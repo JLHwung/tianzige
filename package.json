@@ -8,7 +8,7 @@
     "babel-plugin-react-transform": "3.0.0",
     "browser-sync": "2.26.3",
     "chai": "4.2.0",
-    "css-loader": "0.21.0",
+    "css-loader": "1.0.1",
     "del": "3.0.0",
     "eslint": "1.10.3",
     "eslint-config-airbnb": "0.1.0",
