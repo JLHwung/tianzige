@@ -19,7 +19,7 @@
     "glob": "7.1.3",
     "history": "1.17.0",
     "hygienist-middleware": "0.1.3",
-    "lodash.merge": "3.3.2",
+    "lodash.merge": "4.6.1",
     "mkdirp": "0.5.1",
     "mocha": "2.5.3",
     "ncp": "2.0.0",
