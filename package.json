@@ -38,7 +38,7 @@
     "through2": "2.0.1",
     "url-loader": "0.5.7",
     "webpack": "1.13.3",
-    "webpack-dev-middleware": "1.8.4",
+    "webpack-dev-middleware": "3.4.0",
     "webpack-hot-middleware": "2.24.3"
   },
   "scripts": {
