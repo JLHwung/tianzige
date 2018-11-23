@@ -35,7 +35,7 @@
     "react-transform-hmr": "1.0.4",
     "redbox-react": "1.6.0",
     "style-loader": "0.23.1",
-    "through2": "2.0.1",
+    "through2": "3.0.0",
     "url-loader": "0.5.7",
     "webpack": "1.13.3",
     "webpack-dev-middleware": "1.8.4",
