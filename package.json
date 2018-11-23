@@ -34,7 +34,7 @@
     "react-transform-catch-errors": "1.0.2",
     "react-transform-hmr": "1.0.4",
     "redbox-react": "1.6.0",
-    "style-loader": "0.13.1",
+    "style-loader": "0.23.1",
     "through2": "2.0.1",
     "url-loader": "0.5.7",
     "webpack": "1.13.3",
