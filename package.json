@@ -39,7 +39,7 @@
     "url-loader": "0.5.7",
     "webpack": "1.13.3",
     "webpack-dev-middleware": "1.8.4",
-    "webpack-hot-middleware": "2.13.1"
+    "webpack-hot-middleware": "2.24.3"
   },
   "scripts": {
     "lint": "eslint src tools test",
