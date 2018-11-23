@@ -17,7 +17,7 @@
     "file-loader": "0.8.5",
     "git-repository": "0.1.4",
     "glob": "7.1.3",
-    "history": "1.17.0",
+    "history": "4.7.2",
     "hygienist-middleware": "0.1.3",
     "lodash.merge": "3.3.2",
     "mkdirp": "0.5.1",
