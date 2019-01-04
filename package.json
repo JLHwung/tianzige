@@ -4,7 +4,7 @@
     "babel": "5.8.38",
     "babel-core": "6.26.3",
     "babel-eslint": "4.1.8",
-    "babel-loader": "8.0.4",
+    "babel-loader": "8.0.5",
     "babel-plugin-react-transform": "3.0.0",
     "browser-sync": "2.26.3",
     "chai": "4.2.0",
