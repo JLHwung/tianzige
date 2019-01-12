@@ -404,15 +404,15 @@ atob@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
 
-autoprefixer@9.4.4:
-  version "9.4.4"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-9.4.4.tgz#40c42b335bdb22efe8cd80389ca82ffb5e32d68d"
+autoprefixer@9.4.5:
+  version "9.4.5"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-9.4.5.tgz#a13ccb001e4bc8837f71c3354005b42f02cc03d7"
   dependencies:
-    browserslist "^4.3.7"
-    caniuse-lite "^1.0.30000926"
+    browserslist "^4.4.0"
+    caniuse-lite "^1.0.30000928"
     normalize-range "^0.1.2"
     num2fraction "^1.2.2"
-    postcss "^7.0.7"
+    postcss "^7.0.11"
     postcss-value-parser "^3.3.1"
 
 autoprefixer@^9.3.1:
@@ -972,12 +972,12 @@ browserslist@^4.3.3, browserslist@^4.3.4:
     electron-to-chromium "^1.3.82"
     node-releases "^1.0.1"
 
-browserslist@^4.3.7:
-  version "4.3.7"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.3.7.tgz#f1de479a6466ea47a0a26dcc725e7504817e624a"
+browserslist@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.4.0.tgz#7050d1412cbfc5274aba609ed5e50359ca1a5fdf"
   dependencies:
-    caniuse-lite "^1.0.30000925"
-    electron-to-chromium "^1.3.96"
+    caniuse-lite "^1.0.30000928"
+    electron-to-chromium "^1.3.100"
     node-releases "^1.1.3"
 
 bs-recipes@1.3.4:
@@ -1069,9 +1069,9 @@ caniuse-lite@^1.0.30000898, caniuse-lite@^1.0.30000899, caniuse-lite@^1.0.300009
   version "1.0.30000910"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000910.tgz#755d5181d4b006e5a2b59b1ffa05d0a0470039f5"
 
-caniuse-lite@^1.0.30000925, caniuse-lite@^1.0.30000926:
-  version "1.0.30000926"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000926.tgz#4361a99d818ca6e521dbe89a732de62a194a789c"
+caniuse-lite@^1.0.30000928:
+  version "1.0.30000928"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000928.tgz#805e828dc72b06498e3683a32e61c7507fd67b88"
 
 caseless@~0.11.0:
   version "0.11.0"
@@ -1722,13 +1722,13 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
+electron-to-chromium@^1.3.100:
+  version "1.3.102"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.102.tgz#3ac43a037c8a63bca3dfa189eb3d90f097196787"
+
 electron-to-chromium@^1.3.82:
   version "1.3.84"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.84.tgz#2e55df59e818f150a9f61b53471ebf4f0feecc65"
-
-electron-to-chromium@^1.3.96:
-  version "1.3.96"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.96.tgz#25770ec99b8b07706dedf3a5f43fa50cb54c4f9a"
 
 elliptic@^6.0.0:
   version "6.4.1"
@@ -4747,13 +4747,13 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.2, postcss@^7.0.5, postcss@^7.0.6:
     source-map "^0.6.1"
     supports-color "^5.5.0"
 
-postcss@^7.0.7:
-  version "7.0.7"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.7.tgz#2754d073f77acb4ef08f1235c36c5721a7201614"
+postcss@^7.0.11:
+  version "7.0.11"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.11.tgz#f63c513b78026d66263bb2ca995bf02e3d1a697d"
   dependencies:
-    chalk "^2.4.1"
+    chalk "^2.4.2"
     source-map "^0.6.1"
-    supports-color "^5.5.0"
+    supports-color "^6.1.0"
 
 precss@4.0.0:
   version "4.0.0"
