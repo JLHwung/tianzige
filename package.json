@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "autoprefixer": "9.4.8",
+    "autoprefixer": "9.4.9",
     "babel": "5.8.38",
     "babel-core": "6.26.3",
     "babel-eslint": "4.1.8",
