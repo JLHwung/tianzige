@@ -6,7 +6,7 @@
     "babel-eslint": "4.1.8",
     "babel-loader": "8.0.5",
     "babel-plugin-react-transform": "3.0.0",
-    "browser-sync": "2.26.4",
+    "browser-sync": "2.26.5",
     "chai": "4.2.0",
     "css-loader": "2.1.1",
     "del": "4.1.0",
