@@ -3,7 +3,7 @@
     "autoprefixer": "9.6.1",
     "babel": "5.8.38",
     "babel-core": "6.26.3",
-    "babel-eslint": "4.1.8",
+    "babel-eslint": "10.0.2",
     "babel-loader": "8.0.6",
     "babel-plugin-react-transform": "3.0.0",
     "browser-sync": "2.26.7",
